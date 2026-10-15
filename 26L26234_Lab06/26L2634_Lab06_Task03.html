@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Hotel Reservation Form</title>
+
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    h2 {
+        color: white;
+	text-align: center;
+    }
+
+    table {
+        background-color: black;
+        border: 2px solid white;
+	margin: auto;
+    }
+
+    td {
+        color: white;
+        border: 1px solid white;
+    }
+</style>
+</head>
+
+<body>
+
+    <h2>Continental Hotel Reservation Form</h2>
+
+    <form>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Enter your name"></td>
+            </tr>
+
+            <tr>
+                <td>eMail</td>
+                <td><input type="email" value="info@continental.pk"></td>
+            </tr>
+
+            <tr>
+                <td>Mobile No</td>
+                <td><input type="text" placeholder="Enter your cell number"></td>
+            </tr>
+
+            <tr>
+                <td>Arrival Time</td>
+                <td><input type="text" placeholder="Enter your arrival time"></td>
+            </tr>
+
+            <tr>
+                <td>Departure</td>
+                <td><input type="text"> <input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Room Type</td>
+                <td>
+                    <input type="radio" name="room">Single
+                    <input type="radio" name="room">Double
+                    <br>
+                    <input type="radio" name="room">Presidential Suite
+                </td>
+            </tr>
+
+            <tr>
+                <td>Preferences</td>
+                <td>
+                    <input type="checkbox">Non-Smoking
+                    <br>
+                    <input type="checkbox">Internet
+                    <br>
+                    <input type="checkbox">Firm Mattress
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mode of Payment</td>
+                <td>
+                    <input type="checkbox">Cash
+                    <input type="checkbox">Check
+                    <br>
+                    <input type="checkbox">Credit Card
+                    <input type="button" value="Select Card">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Send Data">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

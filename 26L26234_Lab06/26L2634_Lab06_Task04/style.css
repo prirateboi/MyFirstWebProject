@@ -1,0 +1,49 @@
+
+body {
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+#main {
+    background-color: white;
+    width: 750px;
+    margin: auto;
+    padding: 10px;
+}
+
+#heading {
+    background-color: turquoise;
+    color: teal;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#friends {
+    background-color: turquoise;
+    border: 5px solid teal;
+    width: 160px;
+    padding: 5px;
+    float: left;
+    margin-right: 10px;
+}
+
+.entry {
+    background-color: lightcyan;
+    border: 3px solid powderblue;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: teal;
+    font-weight: normal;
+}
+
+.date {
+    text-decoration: underline;
+}
+
+.description {
+    color: rosybrown;
+}
